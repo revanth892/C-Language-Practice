@@ -1,0 +1,10 @@
+*************************************************************************/
+#include <stdio.h>
+int add(){
+    int a,b;
+    scanf("%d %d",&a,&b);
+    return printf("%d",a+b);
+}
+int main(){
+    add();
+}
