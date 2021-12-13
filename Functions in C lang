@@ -40,3 +40,23 @@ int main()
     // evenorodd(9795);
     printf("%d",factorial(5));
 }
+
+int factorial(int a){
+    int f = 1;
+    for(int i=a;i>=1;i--)
+    {
+        f=f*i;
+    }
+    return f;
+}
+int main()
+{   
+    int x,sum,l;
+    sum=0;
+    scanf("%d",&l);
+    for(x=1;x<=l;x++)
+        {
+            sum=sum+(factorial(x)/x);
+        }
+    printf("%d",sum);
+}
