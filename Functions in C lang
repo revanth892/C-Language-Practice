@@ -1,0 +1,42 @@
+*******************************************************************************/
+#include <stdio.h>
+int sum(int a,int b){
+    return a+b;
+}
+int square(int a){
+    return a*a;
+}
+void swap(int *a,int *b){
+    int temp;
+    temp=*a;
+    *a=*b;
+    *b=temp;
+}
+void evenorodd(int a){
+    if(a%2==0)
+    {
+        printf("Even");
+    }
+    else
+    {
+        printf("Odd");
+    }
+}
+int factorial(int a){
+    int f = 1;
+    for(int i=a;i>=1;i--)
+    {
+        printf("%d\n",f=f*i);
+    }
+    return f;
+}
+int main()
+{
+    // int n1,n2;
+    // n1 =10;
+    // n2 =12;
+    // swap(&n1,&n2);
+    // printf("%d %d",n1,n2);
+    // evenorodd(9795);
+    printf("%d",factorial(5));
+}
