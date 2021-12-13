@@ -85,7 +85,36 @@ int main()
 13. if else if and else comparision with limts
 14.using or oprator || 
 15.if else just chech the condition asked in the question
+
 16.17.
+
+#include <stdio.h>
+int checkalphabets(char a){
+    if((a>='a') && (a<='z'))
+        return 1;
+    else if((a>='A') && (a<='Z'))
+        return 2;
+    else
+        return 3;
+}
+int main()
+{
+    int mon;
+    mon = checkalphabets('x');
+    switch(mon)
+    {
+        case 1:
+            printf("small letter");break;
+        case 2:
+            printf("capital letter");break;
+        case 3:
+            printf("special char");break;
+        default:
+            printf("Invalid Input");break;
+    }
+}
+
+
 18.fi else statement as per the question
 19.
 20.declare grade as char and assign print values
