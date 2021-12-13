@@ -89,3 +89,49 @@ int main()
 18.fi else statement as per the question
 19.
 20.declare grade as char and assign print values
+21.switch case statement
+22.switch case statement
+
+
+23.
+#include <stdio.h>
+
+int main()
+{
+    int mon;
+    scanf("%d",&mon);
+    switch(mon)
+    {
+        case 1:
+            printf("31 Days");break;
+        case 2:
+            printf("28 Days");break;
+        case 3:
+            printf("31 Days");break;
+        case 4:
+            printf("30 Days");break;
+        case 5:
+            printf("31 Days");break;
+        case 6:
+            printf("30 Days");break;
+        case 7:
+            printf("31 Days");break;
+        case 8:
+            printf("31 Days");break;
+        case 9:
+            printf("30 Days");break;
+        case 10:
+            printf("31 Days");break;
+        case 11:
+            printf("30 Days");break;
+        case 12:
+            printf("31 Days");break;
+        default:
+            printf("Invalid Input");break;
+    }
+}
+
+
+24.switch case statement
+25.switch case statement with asked functions in the statements
+26.switch case statement with asked functions in the questions
