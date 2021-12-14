@@ -1,0 +1,9 @@
+1.for loop (int i = 1;i<=10,i++)
+2.for loop (int i=1;i<=10,i++) sum = sum + i
+3.for loop (int i =1;i<=n,i++) sum +=i (means sum = sum +2)
+4.
+5. for (int i=1;i<=n;i++) printf(i*i*i) or printf(cube(i))
+6. for (int i=1;i<=n;i++) printf("%d*%d=%d",a,i,a*i);
+7. same as 6th problem
+8. for (int i =1;i<=n;i++) if odd then printf and sum+=i
+9.
