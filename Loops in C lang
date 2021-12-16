@@ -6,4 +6,10 @@
 6. for (int i=1;i<=n;i++) printf("%d*%d=%d",a,i,a*i);
 7. same as 6th problem
 8. for (int i =1;i<=n;i++) if odd then printf and sum+=i
-9.
+9.10.11.12.13.14,17,20,22
+15.for(int i=n;i>=1;i--) f*=i f=f*i where f=1
+16.for(int i=1;i>=n;i++)  prinf("%d",2*i)  sum += 2*i where sum = 0
+18.Sequence in the question does not have clarity
+19.for(int i =1;i<=n;i++)  sum+=1/i where sum=0
+21.for(int i=1;i<=n;i++) sum +=t t=t*10+9
+23.
