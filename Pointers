@@ -1,0 +1,6 @@
+4.2 poineter to 2 variables function as pointer parameter sum=*pt1+*pt2
+5.same as above but little modification in printf statement
+6.function with pointer parameters and call values with *pt1 and *pt2
+7.little linked to arrays 
+8.looping with pointer and char //will come back here
+9.
